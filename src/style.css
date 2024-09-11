@@ -139,8 +139,30 @@ a{
 
 .color p, a{
     line-height: 1.5;
+    text-align: justify;
 }
 
 .color h2{
     text-align: center;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first, .second, .third{
+    flex:1;
+    max-width: 33%;
+    padding-right: 1rem;
+    padding-left:1rem;
+    text-align:justify;
+}
+
+h3{
+    text-align: center;
+}
+
+.alternative p{
+    text-align: justify;
 }
