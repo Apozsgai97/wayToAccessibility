@@ -117,7 +117,7 @@ nav .nav-links a:hover{
     margin-top: 3rem;
 
 }
-.about h2{
+h2{
     font-size: 2rem;
 }
 .about p {
@@ -125,7 +125,22 @@ nav .nav-links a:hover{
     font-size: 1rem;
     width: 70%;
 }
-.about a{
+a{
     color: black;
     width: 70%;
+}
+
+.left-side img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.color p, a{
+    line-height: 1.5;
+}
+
+.color h2{
+    text-align: center;
 }
