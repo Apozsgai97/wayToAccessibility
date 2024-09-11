@@ -47,3 +47,44 @@ nav .nav-links a:hover{
     border-radius: 10px;
 }
 
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.left-side{
+    flex:1;
+    max-width: 50%;
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.left-side h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.left-side p{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    line-height:1.5;
+
+}
+
+.right-side{
+    flex: 1;
+    max-width: 50%;
+}
+
+.right-side img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+
+}
