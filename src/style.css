@@ -100,7 +100,6 @@ nav .nav-links a:hover{
     width: 100%;
     height: auto;
     border-radius: 8px;
-    object-fit: cover;
 
 }
 
@@ -165,4 +164,8 @@ h3{
 
 .alternative p{
     text-align: justify;
+}
+
+.semantic p{
+    font-size: 1rem;
 }
